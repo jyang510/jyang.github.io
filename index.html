@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    
+    <title>양재영 이력서</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="menu-btn" href="#name">프로필</a></li>
+          <li><a class="menu-btn" href="#cv">상세 내용</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="name">햄버거 최고</h1>
+      <!-- <section class="profile">
+        <img src="./profile.jpg" alt="햄버거 사진" />
+      </section> -->
+      <div class="slider-container">
+        <img src="image1.jpg" alt="Image 1" class="slider-img" />
+        <img src="image2.jpg" alt="Image 2" class="slider-img" />
+        <img src="image3.jpg" alt="Image 3" class="slider-img" />
+        <img src="image4.jpg" alt="Image 4" class="slider-img" />
+        <img src="image5.jpg" alt="Image 5" class="slider-img" />
+        <img src="image6.jpg" alt="Image 6" class="slider-img" />
+        <div class="slider-btn slider-btn-prev">&lt;</div>
+        <div class="slider-btn slider-btn-next">&gt;</div>
+      </div>
+      <div id="cv">
+
+        <section>
+          <div id="clock"></div></section>
+        <section>
+
+        <section>
+          <h3 class="sub-title">chatGPT API 연동 추가</h3>
+          <div><input type="text" /></div>
+          <div></div>
+        </section>
+        
+        <section>
+          <div class="counter">
+            <button onclick="increase()">클릭해주세요</button>
+            <p id="count">0</p>
+          </div>
+        </section>
+
+        <section>
+          <h3 class="sub-title">인적사항</h3>
+          <div><strong>생년월일:</strong> 1996. 08. 19 | O형</div>
+          <div><strong>주소:</strong> 서울특별시 성북구 정릉 2동 168-24</div>
+          <div><strong>연락처:</strong> yayww@naver.com | 010.2332.9417</div>
+        </section>
+          <h3 class="sub-title">보유 스킬</h3>
+          <ul>
+            <li>
+              <a href="./tech-stack/html.html">
+                HTML
+              </a>
+            </li>
+            <li>
+              <a href="./tech-stack/css.html"> CSS </a>
+            </li>
+            <li>
+              <a href="./tech-stack/javascript.html">
+                JavaScript
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Author by: 양재영 <br />
+        Copyright ⓒ 2023 - 2023 양재영. All rights reserved.
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
